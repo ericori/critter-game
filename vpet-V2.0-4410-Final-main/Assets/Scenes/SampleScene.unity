@@ -171,6 +171,7 @@ MonoBehaviour:
   isBrushUnlocked: 0
   isBrushSpawned: 0
   Brush: {fileID: 1390865423710516551, guid: f0e5971153f395c40ba03fa264bcd9c3, type: 3}
+  Star: {fileID: 8033211364271104619, guid: 3eef9ec21487cb14c8ba33a602652535, type: 3}
 --- !u!114 &201369297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +516,14 @@ PrefabInstance:
     - target: {fileID: 1411619618, guid: b3f68d70d9a01734fa75713b0d50d8e8, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354016767166400369, guid: b3f68d70d9a01734fa75713b0d50d8e8, type: 3}
+      propertyPath: full
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354016767166400369, guid: b3f68d70d9a01734fa75713b0d50d8e8, type: 3}
+      propertyPath: hunger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5354016767166400371, guid: b3f68d70d9a01734fa75713b0d50d8e8, type: 3}
       propertyPath: foodWait
